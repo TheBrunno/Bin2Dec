@@ -24,7 +24,7 @@ input[type="text"]:focus{
 }
 article > section{
     height: 300px;
-    width: 700px;
+    width: 850px;
     margin: 0 auto;
     background-color: lightgrey;
     box-sizing: border-box;

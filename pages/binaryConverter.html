@@ -16,7 +16,7 @@
         </h1>
     </header>
     <h2>Write your binary code</h2>
-    <form>
+    <form onsubmit="return false" autocomplete="off">
         <input type="text" id="binaryCode" placeholder="Enter with your binary code">
         <input type="button" value="Convert" id="binaryButton">
     </form>
@@ -26,5 +26,6 @@
             <p id="binaryResult"></p>
         </section>
     </article>
+    <script src="../js/decimalConverter.js"></script>
 </body>
 </html>
