@@ -1,7 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
 header > h1,
 main section > a,
-h2{
+h2,
+article section > p{
     font-family: 'Press Start 2P', serif;
+    font-family: 30px;
+    text-align: center;
 }
 header > h1{
     background-image: linear-gradient(to right, #006400, #70e000);
@@ -9,9 +14,8 @@ header > h1{
     color: #fff;
     text-align: center;
 }
-h2{
-    font-family: 30px;
-    text-align: center;
+body > h2{
+
     margin-top: 50px;
 }
 main{
