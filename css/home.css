@@ -1,0 +1,36 @@
+header > h1,
+main section > a,
+h2{
+    font-family: 'Press Start 2P', serif;
+}
+header > h1{
+    background-image: linear-gradient(to right, #006400, #70e000);
+    padding: 40px 0;
+    color: #fff;
+    text-align: center;
+}
+h2{
+    font-family: 30px;
+    text-align: center;
+    margin-top: 50px;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+    width: 750px;
+    margin: 50px auto;
+}
+main a{
+    box-sizing:border-box;
+    color: #000;
+    padding-top: 140px;
+    font-size: 30px;
+    display: block;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 4px #00000026
+}
