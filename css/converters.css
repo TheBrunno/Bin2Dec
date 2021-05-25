@@ -23,14 +23,16 @@ input[type="text"]:focus{
     border-color: #005000;
 }
 article > section{
-    height: 300px;
+    height: auto;
+    min-height: 300px;
     width: 850px;
     margin: 0 auto;
     background-color: lightgrey;
     box-sizing: border-box;
     padding-top: 20px;
     border-radius: 5px;
-    box-shadow: 0 0 10px 4px #00000026
+    box-shadow: 0 0 10px 4px #00000026;
+    word-wrap: break-word;
 }
 article section > p{
     text-align: center;
