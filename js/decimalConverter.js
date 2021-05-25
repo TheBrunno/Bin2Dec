@@ -2,6 +2,7 @@ const button = document.getElementById('binaryButton')
 const result = document.getElementById('binaryResult')
 
 function convertToDecimal(input){
+    // Here it checks if the data that was passed by the user is a 'binary code'
     let binary_number = input.value
     let binary = true
     for(number in binary_number){
@@ -14,13 +15,10 @@ function convertToDecimal(input){
         }
     }
     if(binary == true){
+        // This is where the calculation is done
         let $sum = 0;
         for(number in binary_number){
             $sum += (2 ** number) * binary_number[--binary_number.length - number]
-        }
-        $sum = String($sum)
-        if($sum.length >= 15){
-            $sum[15] = '<br>'
         }
         result.innerHTML = $sum
     }else{
@@ -29,7 +27,7 @@ function convertToDecimal(input){
     }
 }
 
-
+// When the user presses the button or the enter key the conversion will be calculated
 button.onclick = function(){
     convertToDecimal(document.getElementById('binaryCode'))
 }

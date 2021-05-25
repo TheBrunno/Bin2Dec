@@ -36,5 +36,10 @@ main a{
     text-decoration: none;
     background-color: #fff;
     border-radius: 5px;
-    box-shadow: 0 0 10px 4px #00000026
+    box-shadow: 0 0 10px 4px #00000026;
+    transition:0.5s;
+}
+main a:hover{
+    filter:brightness(90%);
+    box-shadow: 0 0 15px 7px #00000026;
 }
